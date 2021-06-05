@@ -1,0 +1,3 @@
+package inputdemo; 2 import java.util.Scanner; 3 4 public class InputDemo { 5    public static void main(String[] args) { 6        Scanner input = new Scanner(System.in); 7        8        System.out.print("Enter an integer: "); 9        int myInt = input.nextInt(); 10        System.out.printf("You entered %d.%n%n", myInt); 11 12        System.out.print("Enter a double: "); 13        double myDouble = input.nextDouble();
+
+LCF Publishing. Java: Learn Java in One Day and Learn It Well. Java for Beginners with Hands-on Project. (Learn Coding Fast with Hands-On Project Book 4) (p. 58). Learn Coding Fast. Kindle Edition. 
